@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuberDinner.Contracts.Authentication
+namespace BuberDinner.Application.Services.Authentication
 {
-    public record AuthenticationResponse(
+    public record AuthenticationResult(
         Guid Id,
         string FirstName,
         string LastName,
